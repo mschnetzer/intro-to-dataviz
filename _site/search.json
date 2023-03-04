@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html#über-mich",
+    "href": "index.html#über-mich",
+    "title": "Schöner Visualisieren",
+    "section": "Über mich",
+    "text": "Über mich\n\n\n\n\n\n Matthias Schnetzer\n Arbeiterkammer Wien & WU Vienna\n mschnetz@akwien.at\n https://mschnetzer.github.io\n matschnetzer\n\n Achtung: Ich bin kein ausgebildeter Grafiker sondern Autodidakt. Meine Grafiken erstelle ich mit der Statistiksoftware R."
+  },
+  {
+    "objectID": "index.html#über-diesen-workshop",
+    "href": "index.html#über-diesen-workshop",
+    "title": "Schöner Visualisieren",
+    "section": "Über diesen Workshop",
+    "text": "Über diesen Workshop\n\n“Ein Bild sagt mehr als Tausend Worte”\n\nMit der stetig verbesserten Datenverfügbarkeit ist die Nachfrage nach Datenvisualisierung enorm gestiegen. Mit gängiger Software ist eine Grafik heute rasch erstellt. Aber es gilt einige Grundregeln für erfolgreiche Datenvisualisierung zu beachten.\nWas sind die Ziele des Workshops?\n\nKenntnis der wichtigsten Prinzipien der Datenvisualisierung\nInspiration aus einer Vielzahl unterschiedlicher Grafiktypen\nErfahrungen aus best practice Beispielen"
+  },
+  {
+    "objectID": "index.html#was-sind-die-erwartungen",
+    "href": "index.html#was-sind-die-erwartungen",
+    "title": "Schöner Visualisieren",
+    "section": "Was sind die Erwartungen?",
+    "text": "Was sind die Erwartungen?\n   \nGibt es aus der Gruppe besondere Erwartungen an diesen Workshop?"
+  },
+  {
+    "objectID": "index.html#weiterführende-literatur",
+    "href": "index.html#weiterführende-literatur",
+    "title": "Schöner Visualisieren",
+    "section": "Weiterführende Literatur",
+    "text": "Weiterführende Literatur\n\n\n\n\n\n\n\n\n\nJonathan Schwabish  Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks  Columbia University Press  ISBN-13: 9780231193115\n\n\n\nDavid Spiegelhalter  The Art of Statistics: Learning from Data  Penguin Books UK  ISBN-13: 9780241258767"
+  },
+  {
+    "objectID": "index.html#online-bücher",
+    "href": "index.html#online-bücher",
+    "title": "Schöner Visualisieren",
+    "section": "Online Bücher",
+    "text": "Online Bücher\n\n\n\n\n\n\n\n\n\nKieran Healy  Data Visualization: A Practical Introduction  Princeton University Press  ISBN-13: 9780691181622  Link\n\n\n\nClaus O. Wilke  Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures  O’Reilly Media  ISBN-13: 9781492031086  Link\n\n\n\nJack Dougherty and Ilya Ilyankou  Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code  O’Reilly Media  ISBN-13: 9781492086000  Link\n\n\n\n\n\n\nWorkshop Datenvisualisierung | Momentum Institut | 20. März 2023"
+  }
+]

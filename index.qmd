@@ -1,0 +1,90 @@
+---
+metadata-files: 
+    - _variables.yml
+title: "{{< var course.subtitle >}}"
+author: "{{< var instructor.name-wo-title >}}"  
+date-format: long
+from: markdown+emoji
+bibliography: data/dataviz.bib
+csl: data/dataviz.csl
+execute:
+  echo: true
+format:
+  revealjs:
+    theme: dataviz.scss
+    footer: '{{< var course.title >}} | {{< var course.location >}} | {{< var course.date >}}'
+    header-includes: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    slide-number: true
+    show-slide-number: all
+    transition: fade
+    progress: true
+    multiplex: false
+    scrollable: true
+    preview-links: false
+    hide-inactive-cursor: true
+    highlight-style: printing
+    pause: true
+---
+
+## Über mich {.smaller}
+
+::: columns
+::: {.column width="30%"}
+![](img/profile-pic.jpg){.absolute top="20%" left="7%" style="display: inline-block; width: 150px; height: 150px;border-radius:50%;"}
+:::
+::: {.column width="70%" .iconlist}
+- <i class="fa-solid fa-user icon"></i> {{< var instructor.name-wo-title >}}
+- <i class="fa-solid fa-building icon"></i> {{< var instructor.employer >}}
+- <i class="fa-solid fa-envelope icon"></i> [{{< var instructor.email >}}](mailto:{{< var instructor.email >}})
+- <i class="fa-solid fa-globe icon"></i> [{{< var instructor.url >}}]({{< var instructor.url >}})
+- <i class="fa-brands fa-twitter icon"></i> [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+
+<br>
+[Achtung:]{.hl .hl-dred .secfont} Ich bin kein ausgebildeter Grafiker sondern Autodidakt. Meine Grafiken erstelle ich mit der Statistiksoftware R.
+:::
+:::
+
+## Über diesen Workshop {.medium}
+
+::: {.secfont style="font-size:2.3rem;text-align:center;"}
+"Ein Bild sagt mehr als Tausend Worte"
+:::
+
+Mit der stetig verbesserten Datenverfügbarkeit ist die Nachfrage nach Datenvisualisierung enorm gestiegen. Mit gängiger Software ist eine Grafik heute rasch erstellt. Aber es gilt einige Grundregeln für erfolgreiche Datenvisualisierung zu beachten.
+
+Was sind die Ziele des Workshops?
+
+- Kenntnis der wichtigsten [Prinzipien der Datenvisualisierung]{.marker-hl}
+- [Inspiration]{.marker-hl} aus einer Vielzahl unterschiedlicher Grafiktypen
+- Erfahrungen aus [best practice Beispielen]{.marker-hl}
+
+## Was sind die Erwartungen?
+
+![](img/group3.png){.absolute bottom="0%" left="0%" height="400px"}
+![](img/group2.png){.absolute bottom="0%" left="15%" height="400px"}
+![](img/group1.png){.absolute bottom="0%" left="33%" height="400px"}
+![](img/group4.png){.absolute bottom="0%" left="50%" height="400px"}
+
+[Gibt es aus der Gruppe besondere Erwartungen an diesen Workshop?]{.bubble .bubble-bottom-right .absolute top="15%" right="0%" style="max-width:400px;--bubcol: var(--bubcol-dred); font-size:1.8rem;"}
+
+## Weiterführende Literatur 
+
+::: {.tbl-larger .recommended-lit}
+|   |   |
+|---|---|
+| ![](img/schwabish.jpg) | **Jonathan Schwabish** <br> *Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks* <br> Columbia University Press <br> ISBN-13: 9780231193115 |
+| ![](img/spiegelhalter.jpeg) | **David Spiegelhalter** <br> *The Art of Statistics: Learning from Data* <br> Penguin Books UK <br> ISBN-13: 9780241258767 |
+: {tbl-colwidths="[20,80]"}
+:::
+
+## Online Bücher
+
+::: {.recommended-lit }
+|   |   |
+|--------|--------|
+| ![](img/healy.jpg){style="border: 0.5px solid black" height=150} | **Kieran Healy** <br> *Data Visualization: A Practical Introduction* <br> Princeton University Press <br> ISBN-13: 9780691181622 <br> [Link](https://socviz.co/index.html#preface) |
+| ![](img/wilke.png){style="border: 0.5px solid black" height=150} | **Claus O. Wilke** <br> *Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures* <br> O'Reilly Media <br> ISBN-13: 9781492031086 <br> [Link](https://clauswilke.com/dataviz/) |
+| ![](img/dougherty.jpg){style="border: 0.5px solid black" height=150} | **Jack Dougherty and Ilya Ilyankou** <br> *Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code* <br> O'Reilly Media <br> ISBN-13: 9781492086000 <br> [Link](https://handsondataviz.org) |
+: {tbl-colwidths="[15,85]"}
+:::
